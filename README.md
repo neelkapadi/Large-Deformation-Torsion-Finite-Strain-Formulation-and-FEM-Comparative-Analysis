@@ -321,7 +321,7 @@ The FEM model was evaluated using a 5 mm mesh after performing a mesh convergenc
 The FEM simulation predicts a maximum deformation of approximately **94.768 mm** for the 5 mm mesh.
 
 <p align="center">
-  <img src="ansys/results/deformation_5mm.png" width="900">
+  <img src="https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/5mm%20deformation.png" width="900">
 </p>
 
 <p align="center">
@@ -335,7 +335,7 @@ The FEM simulation predicts a maximum deformation of approximately **94.768 mm**
 The maximum shear stress obtained from the 5 mm mesh was approximately **19,606 MPa**.
 
 <p align="center">
-  <img src="ansys/results/shear_stress_5mm.png" width="900">
+  <img src="https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/5mm%20shear%20stress.png" width="900">
 </p>
 
 <p align="center">
@@ -349,7 +349,7 @@ The maximum shear stress obtained from the 5 mm mesh was approximately **19,606 
 The FEM solution also captures the axial normal stress generated under large torsional deformation.
 
 <p align="center">
-  <img src="ansys/results/normal_stress_5mm.png" width="900">
+  <img src="https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/normal%20stress%205mm.png" width="900">
 </p>
 
 <p align="center">
@@ -367,7 +367,7 @@ T_{\mathrm{FEM}} = 3.7899\times10^6\ \mathrm{N\,m}
 $$
 
 <p align="center">
-  <img src="ansys/results/total_torque_5mm.png" width="900">
+  <img src="https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/5mm%20totaltorque.png" width="900">
 </p>
 
 <p align="center">
