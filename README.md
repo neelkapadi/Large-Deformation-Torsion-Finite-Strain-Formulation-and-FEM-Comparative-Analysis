@@ -320,7 +320,7 @@ The maximum Frobenius-norm error between the analytical and numerical deformatio
 7.18115 x 10^-12
 
 <p align="center">
-  <img src=""C:\Users\neelk\OneDrive\Desktop\254103109_Continuum mechanics project\Matlab Plots\axial_stress_vs_radius.png"" width="800">
+  <img src="https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/axial_stress_vs_radius.png" width="800">
 </p>
 
 <p align="center">
