@@ -319,8 +319,16 @@ The 5 mm mesh was considered converged based on the variation in the extracted q
 The maximum Frobenius-norm error between the analytical and numerical deformation gradients was:
 
 \[
-\boxed{7.18115\times10^{-12}}
+\boxed{7.18115 x 10^{-12}}
 \]
+
+<p align="center">
+  <img src="plots/axial_stress_vs_radius.png" width="800">
+</p>
+
+<p align="center">
+  <b>Axial Normal Stress vs. Radius</b>
+</p>
 
 This demonstrates excellent numerical agreement between the finite-difference implementation and the analytical deformation gradient.
 
@@ -332,16 +340,32 @@ For the investigated twist condition:
 
 | Model | Torque |
 |---|---:|
-| Small-Strain C++ | \(3.77123\times10^6\) N·m |
-| Finite-Strain C++ | \(4.04570\times10^6\) N·m |
-| Classical Theory | \(3.77595\times10^6\) N·m |
-| ANSYS FEM | \(3.78990\times10^6\) N·m |
+| Small-Strain C++ | \(3.77123x10^6\) N·m |
+| Finite-Strain C++ | \(4.04570x10^6\) N·m |
+| Classical Theory | \(3.77595x10^6\) N·m |
+| ANSYS FEM | \(3.78990x10^6\) N·m |
 
 The relative torque error between the finite-strain C++ formulation and ANSYS FEM was:
 
 \[
 \boxed{6.32\%}
 \]
+
+<p align="center">
+  <img src="plots/torque_vs_twist.png" width="800">
+</p>
+
+<p align="center">
+  <b>Torque vs. Rate of Twist</b>
+</p>
+
+<p align="center">
+  <img src="plots/shear_stress_vs_radius.png" width="800">
+</p>
+
+<p align="center">
+  <b>Torsional Shear Stress vs. Radius</b>
+</p>
 
 ---
 
@@ -366,6 +390,8 @@ This demonstrates the importance of finite-strain kinematics when analyzing shaf
 - The finite-strain C++ torque prediction agrees with ANSYS FEM within **6.32% relative error**.
 - FEM results show convergence as the mesh is refined from 10 mm to 5 mm.
 - Classical relations such as \(\tau=G\alpha r\) and \(T=GJ_p\alpha\) become inadequate for representing the complete stress state under severe rotational deformation.
+
+---
 
 ## Repository Structure
 
