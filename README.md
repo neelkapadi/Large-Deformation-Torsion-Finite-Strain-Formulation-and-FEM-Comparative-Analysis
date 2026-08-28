@@ -317,13 +317,10 @@ The 5 mm mesh was considered converged based on the variation in the extracted q
 ### Deformation Gradient Validation
 
 The maximum Frobenius-norm error between the analytical and numerical deformation gradients was:
-
-\[
-\boxed{7.18115 x 10^{-12}}
-\]
+7.18115 x 10^-12
 
 <p align="center">
-  <img src="plots/axial_stress_vs_radius.png" width="800">
+  <img src=""C:\Users\neelk\OneDrive\Desktop\254103109_Continuum mechanics project\Matlab Plots\axial_stress_vs_radius.png"" width="800">
 </p>
 
 <p align="center">
@@ -390,40 +387,6 @@ This demonstrates the importance of finite-strain kinematics when analyzing shaf
 - The finite-strain C++ torque prediction agrees with ANSYS FEM within **6.32% relative error**.
 - FEM results show convergence as the mesh is refined from 10 mm to 5 mm.
 - Classical relations such as \(\tau=G\alpha r\) and \(T=GJ_p\alpha\) become inadequate for representing the complete stress state under severe rotational deformation.
-
----
-
-## Repository Structure
-
-```text
-large-deformation-torsion/
-│
-├── README.md
-│
-├── src/
-│   └── torsion_analysis.cpp
-│
-├── data/
-│   └── shaft_torsion_data.csv
-│
-├── matlab/
-│   ├── plot_table.m
-│   └── plot_table.mat
-│
-├── plots/
-│   ├── deformation_gradient_error.png
-│   ├── axial_stress_vs_radius.png
-│   ├── shear_stress_vs_radius.png
-│   └── torque_vs_twist.png
-│
-├── ansys/
-│   ├── ansys_model/
-│   └── ansys_results/
-│
-└── report/
-    └── ME541_Project_Report.pdf
-
-```
 
 ---
 Requirements
