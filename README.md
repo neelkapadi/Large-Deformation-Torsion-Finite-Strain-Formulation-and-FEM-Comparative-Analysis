@@ -349,7 +349,7 @@ The relative torque error between the finite-strain C++ formulation and ANSYS FE
 \]
 
 <p align="center">
-  <img src="plots/torque_vs_twist.png" width="800">
+  <img src="[plots/torque_vs_twist.png](https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/torque_vs_twist.png)" width="800">
 </p>
 
 <p align="center">
@@ -357,7 +357,7 @@ The relative torque error between the finite-strain C++ formulation and ANSYS FE
 </p>
 
 <p align="center">
-  <img src="plots/shear_stress_vs_radius.png" width="800">
+  <img src="[plots/shear_stress_vs_radius.png](https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/shear_stress_vs_radius.png)" width="800">
 </p>
 
 <p align="center">
