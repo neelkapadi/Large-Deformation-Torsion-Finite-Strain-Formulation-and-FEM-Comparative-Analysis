@@ -310,9 +310,74 @@ Three mesh sizes were investigated:
 
 The 5 mm mesh was considered converged based on the variation in the extracted quantities.
 
+## ANSYS FEM Results
+
+A 3D solid circular shaft was simulated using **ANSYS Static Structural**.
+
+The FEM model was evaluated using a 5 mm mesh after performing a mesh convergence study with 10 mm, 7.5 mm and 5 mm element sizes.
+
+### Total Deformation
+
+The FEM simulation predicts a maximum deformation of approximately **94.768 mm** for the 5 mm mesh.
+
+<p align="center">
+  <img src="ansys/results/deformation_5mm.png" width="900">
+</p>
+
+<p align="center">
+  <b>ANSYS Total Deformation — 5 mm Mesh</b>
+</p>
+
 ---
 
-## Results
+### Maximum Shear Stress
+
+The maximum shear stress obtained from the 5 mm mesh was approximately **19,606 MPa**.
+
+<p align="center">
+  <img src="ansys/results/shear_stress_5mm.png" width="900">
+</p>
+
+<p align="center">
+  <b>ANSYS Maximum Shear Stress — 5 mm Mesh</b>
+</p>
+
+---
+
+### Axial Normal Stress
+
+The FEM solution also captures the axial normal stress generated under large torsional deformation.
+
+<p align="center">
+  <img src="ansys/results/normal_stress_5mm.png" width="900">
+</p>
+
+<p align="center">
+  <b>ANSYS Axial Normal Stress — 5 mm Mesh</b>
+</p>
+
+---
+
+### Reaction Torque
+
+The reaction torque obtained from the ANSYS simulation was approximately:
+
+$$
+T_{\mathrm{FEM}} = 3.7899\times10^6\ \mathrm{N\,m}
+$$
+
+<p align="center">
+  <img src="ansys/results/total_torque_5mm.png" width="900">
+</p>
+
+<p align="center">
+  <b>ANSYS Reaction Torque — 5 mm Mesh</b>
+</p>
+
+
+---
+
+## Comparison Results
 
 ### Deformation Gradient Validation
 
@@ -349,7 +414,7 @@ The relative torque error between the finite-strain C++ formulation and ANSYS FE
 \]
 
 <p align="center">
-  <img src="[plots/torque_vs_twist.png](https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/torque_vs_twist.png)" width="800">
+  <img src="(https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/torque_vs_twist.png)" width="800">
 </p>
 
 <p align="center">
@@ -357,7 +422,7 @@ The relative torque error between the finite-strain C++ formulation and ANSYS FE
 </p>
 
 <p align="center">
-  <img src="[plots/shear_stress_vs_radius.png](https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/shear_stress_vs_radius.png)" width="800">
+  <img src="(https://github.com/neelkapadi/Large-Deformation-Torsion-Finite-Strain-Formulation-and-FEM-Comparative-Analysis/blob/main/Matlab%20Plots/shear_stress_vs_radius.png)" width="800">
 </p>
 
 <p align="center">
